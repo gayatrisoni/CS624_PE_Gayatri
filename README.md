@@ -17,4 +17,16 @@ Process: This is functional component that renderse input by displaying on the s
 
 Output: The output is displayed within the app, allowing the user to easily view and interact with the course information. This structured model ensures a clear flow of data from input to processing and finally to the output, resulting in an intuitive user experience.
 
+# PE03
+![Uploading button.png…]()
+
+Input: The program is React Native to-do-application, takes user input throught a text Input field. The input represents the tasks the user wants to add to their to-do-list. The input valuse is stored in the components's state as inputValue.
+
+Process: upon pressing submit button, the program triggers the submitTodo fucntion that checks if the input is empty or contains only whitespace. If so, it return nothing. otherwise, it creates a new t0-do object with a title, a unique index(todoIndex), and a complete property set to false. The new to-do item is added to the todos array in the state and update the list. After that the input field is reset.
+
+Output: The putput of the program is a visual representation if to-do list. This is displayed in the app's internface, where each task is listed. The user can add more task and they will append the list.
+
+
+
+
 

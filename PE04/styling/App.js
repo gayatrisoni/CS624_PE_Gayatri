@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, StyleSheet, View} from 'react-native';
+import { Image, StyleSheet, View, Text} from 'react-native';
 
 export default class App extends Component<{}> {
     render() {
@@ -9,6 +9,23 @@ export default class App extends Component<{}> {
                     <View style={styles.cardImageContainer}>
                         <Image style={styles.cardImage}        
                                source={require('./user.png')}/>         
+                    </View>
+                    <View>
+                        <Text style = {styles.cardName}>
+                            John Doe
+                        </Text>
+                    </View>
+                    <View style= {styles.cardOccupationContainer}>
+                        <Text style = {styles.cardOccupation}>
+                            React Native Developer
+                        </Text>
+                    </View>  
+                    <View>
+                        <Text style={styles.cardDescription}>      
+                        John is a really great JavaScript developer. He
+                        loves using JS to build React Native applications
+                        for iOS and Android.
+                        </Text>
                     </View>
                 </View>
             </View>
@@ -49,5 +66,35 @@ const styles = StyleSheet.create({
         width: 80,
         height: 80,
         
+    },
+
+    cardName: {
+        color: 'white',
+        fontWeight: 'bold', 
+        textShadowColor: 'black',      
+        textShadowOffset: {            
+            height: 4,
+            width: 4
+        },
+        textShadowRadius: 3,   
+        fontSize: 24,  
+        marginTop: 30,
+    },
+    cardOccupationContainer: {
+        borderColor: 'black',
+        borderBottomWidth : 3
+    },
+    cardOccupation: {
+        fontWeight: 'bold',
+        marginTop: 10,
+        marginBottom : 10,
+
+    },
+    cardDescription: {
+        fontStyle: 'italic',
+        marginTop: 10,
+        marginRight: 40,
+        marginLeft: 40,
+        marginBottom: 10
     }
 });

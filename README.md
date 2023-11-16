@@ -30,6 +30,13 @@ Process: upon pressing submit button, the program triggers the submitTodo fucnti
 
 Output: The output of the program is a visual representation if to-do list. This is displayed in the app's internface, where each task is listed. The user can add more task and they will append the list.
 
+# PE04:
+Input: The React Native application is designed to display user profile cards. The input for each card includes user data such as the image, name, occupation, description, showThumbnail flag, and an onPress function. The data array holds multiple user profiles, each profile initialized with the same information for demonstration purposes.
+
+Process: The program uses the ProfileCard component to render individual user cards. The handleProfileCardPress function in the parent component manages the state, toggling the showThumbnail property when a card is pressed. The styling, defined in the StyleSheet, make sure a visually appealing layout with platform-specific adjustments for shadows (iOS) and elevation (Android). The rendering logic maps over the user data, creating instances of the ProfileCard component, and organizes them into rows.
+
+Output: The output is a user-friendly interface displaying profile cards in rows, each containing three cards. Users can press a card to toggle between a full-size view and a thumbnail view. The visual representation includes user images, names, occupations, and descriptions. Overall, the program provides an interactive and dynamic way to showcase user profiles in a mobile application.
+
 
 
 

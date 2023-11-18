@@ -37,7 +37,11 @@ Process: The program uses the ProfileCard component to render individual user ca
 
 Output: The output is a user-friendly interface displaying profile cards in rows, each containing three cards. Users can press a card to toggle between a full-size view and a thumbnail view. The visual representation includes user images, names, occupations, and descriptions. Overall, the program provides an interactive and dynamic way to showcase user profiles in a mobile application.
 
+# PE05:
+Input: The react native application display four tabs cities, addCity, countries, addCountry using tab baed navigation. The addCity tab will take input as city name and country name and a submit button. The addCountry tab will take input as country name and currency and submit button.
 
+Process: the programme uses four component addCity, addCountry, countries, cities. The addCity component will take input as city name and country name and store city and country in cities tab using submit button. The addCountry tab will take input as country name and currency name and store this information in coutries tab using submit button and navigate to coutries page that will display information.
 
+Output: The output utilizes tab based navigation and display city name and coutry name in cities tab and country and currency in countries tab. The appliaction display tabs at the bottom. The app also uses a resuble component. 
 
 

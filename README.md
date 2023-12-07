@@ -53,4 +53,11 @@ Process: the programme uses four component addCity, addCountry, countries, citie
 
 Output: The output utilizes tab based navigation and display city name and coutry name in cities tab and country and currency in countries tab. The appliaction display tabs at the bottom. The app also uses a resuble component. 
 
+# PE06
 
+Input: the react native application manage data related to cities and coutries. The application expected to provide inuput for cities and coutries through user interface. The program prompts users to add cities and location within cities, countries and currencies associated with countries.
+
+Process: the application shows how the program adds cities, locations, countries, and currencies to the internal state. The addCity, addCountry and addCurrency method handles logic for user provides information into the data strctures.
+
+Output
+The Output section diaplay details what users can expect as a result of their interactions with the program. In this context, the program showes that the program maintains a state of cities, locations, countries, and currencies, and users will see the updated information on the screen. 

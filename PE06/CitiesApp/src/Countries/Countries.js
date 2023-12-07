@@ -28,7 +28,7 @@ export default class Countries extends React.Component {
                 <TouchableWithoutFeedback onPress={() => this.navigate(item)} key={index} >
                   <View style={styles.countryContainer}>
                     <Text style={styles.country}>{item.country}</Text>
-                    <Text style={styles.country}>{item.currency}</Text>
+                    <Text style={styles.currency}>{item.currency}</Text>
                   </View>
                 </TouchableWithoutFeedback>
               ))
